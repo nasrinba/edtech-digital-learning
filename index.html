@@ -6,11 +6,13 @@
     <title>Digital World</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
+
   <body>
+    <section class="ms-5 me-3 border border-secondary border-5">
     <header class="container">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Digital knowledge</a>
+          <a class="navbar-brand" href="#">Digital World</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -76,13 +78,13 @@
       <!-- Slider end -->
     </header>
     <main>
-      <!-- categories start -->
+     <!-- categories start -->
       <section>
         <div class="container text-center my-5">
-          <div>
-            <h1>Discover Our Popular<br> 
+          <div class="pb-3 pt-5">
+            <h1 class="fs-bold">Discover Our Popular<br> 
               Courses</h1>
-              <p>It is a long established fact that a reader will be distracted by the readable<br> 
+              <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable<br> 
                 content of a page when looking at its layout</p>
           </div>
           <div class="row g-3">
@@ -199,7 +201,80 @@
         </div>
       </section>
       <!-- categories end -->
-    </main>
+      <section class="container">
+        <div class="text-center">
+          <h1 class="text-bold">Frequently Asked Questions</h1>
+          <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable <br>
+            content of a page when looking at its layout</p>
+          </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Q:1. What are the difference between Flex-box and Grid?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show text-secondary" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               The difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimention - either a row or a column. <br> Grid was designed for two-dimentional layout - rows, and columns at the same time.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Q:2. What are the difference between Bootstrap and Tailwind?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse text-secondary" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+              Bootstrap is the most popular HTML, CSS and Javascript framework for building responsive, mobile-first projects on the web. Tailwind CSS, on the other hand , is the most popular utility-first CSS framework for fast UI development.
+              <br>  Bootstrap is a component-based framework, which means it comes with prebuilt components and includes other utilities for layering displays, spacing, etc.<br>
+                Tailwind, on the other hand, CSS is a utility-first framework. Using Tailwind CSS is a kin writing regular CSS. Unlike Bootstrap, it has no prebuilt compunents.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Q:3. What is css box model?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse text-secondary" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                A CSS box model is a compartment that includes numerous assets, such as edge, border, padding and material. It is used to develop the design and structure of a web page. <br>
+                It can be used as a ser of tools to personalize the layout of different components. According to the CSS box model, the web browser supplies each element as a square prism.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Q:4. What is semantic tag?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse text-secondary" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages. <br>
+                Some Semantic tags, such as- header, nav, section, article, aside, footer etc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+    <footer class="bg-black  mt-5  p-5">
+    <div class="text-center">
+      <h2>Digital World</h2>
+      <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
+
+        Sultanate of Oman <br>
+        Privacy Ploicy | Terms of us</p>
+        <a href=></a>
+    </div>
+    </footer>
+  </main>
+  </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
